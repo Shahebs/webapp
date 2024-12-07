@@ -2,7 +2,7 @@
 FROM nginx:1.10.1-alpine
 
 #Copy files from current directory to nginx
-COPY index.html /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 #Expose port 80
 EXPOSE 80
